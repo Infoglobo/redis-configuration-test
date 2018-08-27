@@ -1,0 +1,12 @@
+version: '3.3'
+
+# https://github.com/Grokzen/docker-redis-cluster
+# docker run -itd -p "7000-7005":"7000-7005" -e CLUSTER_ONLY=true --name honest-redis-cluster grokzen/redis-cluster
+# docker run -itd -p "7000-7005":"7000-7005" -p "7006-7007":"7006-7007" --name honest-redis-cluster grokzen/redis-cluster
+
+services:
+  redis-standalone-and-cluster:
+    image: grokzen/redis-cluster:4.0.9
+    ports:
+    - '7000-7005:7000-7005'
+    - '7006-7007:7006-7007'

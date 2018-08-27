@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: redis-configuration-test
+  main:
+    banner-mode: "off"
+
+---
+
+spring:
+  profiles: it
+
+dynamic.redis-standalone.port: ${redis-standalone.port}
+dynamic.redis-cluster-node-1.port: ${redis-cluster-node-1.port}
+dynamic.redis-cluster-node-2.port: ${redis-cluster-node-2.port}
+dynamic.redis-cluster-node-3.port: ${redis-cluster-node-3.port}
+dynamic.redis-cluster-node-4.port: ${redis-cluster-node-4.port}
+dynamic.redis-cluster-node-5.port: ${redis-cluster-node-5.port}
+dynamic.redis-cluster-node-6.port: ${redis-cluster-node-6.port}
