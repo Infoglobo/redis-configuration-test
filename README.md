@@ -15,6 +15,6 @@ Rode os testes unitários:
 
     mvn clean test
 
-Incluindo teste de integração:
+Somente teste de integração:
 
     mvn -Dskip.surefire.tests=true clean verify
