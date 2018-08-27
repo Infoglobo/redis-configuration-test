@@ -7,7 +7,7 @@ Saiba como configurar Redis na sua aplicação Spring Boot tanto para `standalon
 
 Veja mais detalhes na postagem abaixo:
 
-- LINK
+- [Configurando Redis com dados de conexão recebidas do provedor com Spring Boot](https://medium.com/editora-globo/configurando-redis-com-dados-de-conex%C3%A3o-recebidas-do-provedor-com-spring-boot-de4de9469688)
 
 ## Testando o projeto
 
